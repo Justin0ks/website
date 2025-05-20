@@ -14,7 +14,10 @@ header{
     .kleur-bedekking{
         min-height: 50vh;
     }
-
+    .chessabout{
+        float: none;
+        margin: 50px;
+    }
 }
 
 html,body{
@@ -30,15 +33,20 @@ main{
     flex: 1;
 }
 
-.p{
-    
+h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 footer{
     background-color: black;
-color: white;
+    color: white;
     text-align: center;
     height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 0%;
 }
 .color-footer{
     height: 50px;
@@ -47,4 +55,36 @@ color: white;
 }
 h4{
     color: black;
+}
+.chessabout{
+    float: right;
+    margin-left: 15px;
+}
+.lorem{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card{
+    margin: 10px;
+}
+.port{
+    margin-top: 50px;
+    text-align: center;
+}
+.bibi-puzzle-fill{
+    color: white;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+.bibi-youtube{
+    color: white;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.richard{
+    position: relative;
+    margin-left: 75%;
 }
